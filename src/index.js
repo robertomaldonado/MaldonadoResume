@@ -4,14 +4,15 @@ import './index.css';
 import PersonalSiteDashboard from './PersonalSiteDashboard';
 import * as serviceWorker from './serviceWorker';
 
-let aboutMe = [
-    {"name":"Roberto Maldonado", 
+let aboutMe =
+    {       
+    "id":1,
+    "name":"Roberto Maldonado", 
     "phone":"+850-791-8304", 
     "email": "rbt.maldonado@gmail.com",
     "linkedin":"https://www.linkedin.com/in/roberto-maldonado-470009116/",
     "github":"https://github.com/robertomaldonado/",
-    },
-];
+    };
 
 ReactDOM.render(
     <PersonalSiteDashboard details={aboutMe}/>, 

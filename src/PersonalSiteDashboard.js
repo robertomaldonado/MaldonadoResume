@@ -8,20 +8,15 @@ export class PersonalSiteDashboard extends React.Component {
     render(){
         const {details} = this.props
         return (
-            <div>
-                {/* <AboutSection details={aboutMe} />
-                <EducationSection /> */}
-                {details.map(
-                    (detail, i) => 
-                        <Detail 
-                            key={i} 
-                            name={detail.name}
-                            phone={detail.phone}
-                            email = {detail.email}
-                            github={detail.github}
-                            linkedin={detail.linkedin}
-                        />
-                )}
+            <div> 
+                <Detail 
+                    key={details.id} 
+                    name={details.name}
+                    phone={details.phone}
+                    email = {details.email}
+                    github={details.github}
+                    linkedin={details.linkedin}
+                />
             </div>
         );
     }
