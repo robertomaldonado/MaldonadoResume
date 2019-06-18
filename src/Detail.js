@@ -1,13 +1,26 @@
-import React from "react"
+import React from "react";
+import './App.css';
 
-const Detail = ({name,phone,email,linkedin,github}) => {
+const Detail = ({name,phone,email}) => {
     return(
-        <section>
-            <h3>{name}</h3>
-            <h4>Phone: {phone} | Email: {email} </h4>
-            <h4>LinkedIn: {linkedin} </h4>
-            <h4>Github: {github}</h4>
-        </section>
+        <div className='ui text container'>
+            <div className="ui segment">
+                <h3 className="ui center aligned icon header">
+                <i className="circular user icon"></i>
+                    {name}
+                </h3>
+                <p class="large text">
+                <b>Phone: 
+                    </b> {phone} <br /> 
+                <b> Email: 
+                    </b> {email} <br />
+                <b>LinkedIn: </b>  
+                    <i className="linkedin icon"></i>  <br />
+                <b>Github: </b> 
+                    <i className="github icon"></i> <br />
+                </p>
+            </div>
+        </div>
     )
 }
 
