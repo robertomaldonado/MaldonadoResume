@@ -12,6 +12,7 @@ class AboutSection extends React.Component {
                     email = {detail_items.email}
                     github={detail_items.github}
                     linkedin={detail_items.linkedin}
+                    location={detail_items.location}
                 />
         );
     }

@@ -18,7 +18,7 @@ import * as serviceWorker from './serviceWorker';
             "postalCode": "FL 32301",
             "city": "Tallahassee",
             "countryCode": "US",
-            "region": "East Coast"
+            "region": "FL"
           },
           "profiles": [{
             "network": "Github",

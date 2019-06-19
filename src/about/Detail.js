@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 
-const Detail = ({name,phone,email}) => {
+const Detail = ({name,phone,email,location}) => {
     return(
         <div className='ui text container'>
             <div className="ui text segment">
@@ -17,11 +17,15 @@ const Detail = ({name,phone,email}) => {
                     </b> {phone} <br /> 
                 <b>Email: 
                     </b> {email} <br />
+                <i className="location arrow icon"></i>
+                    {location.city},{location.region} <br />
                 <b>LinkedIn: </b>  
                     <i className="linkedin icon"></i> | 
                 <b> Github: </b> 
                     <i className="github icon"></i> <br />
                 </p>
+                This site was built with React JS components and a customized version of JSON Resume Schema. 
+                Source code can be found in my <a href="./" > github </a>.
             </div>
         </div>
         </div>
