@@ -134,8 +134,8 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <PersonalSiteDashboard  
-      details={allData.basics} 
-      education={allData.education} 
+      detail_items={allData.basics} 
+      education_items={allData.education} 
       work_items={allData.work}
     />, 
     document.getElementById('root')

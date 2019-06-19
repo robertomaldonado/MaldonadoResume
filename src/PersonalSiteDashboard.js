@@ -6,11 +6,11 @@ import WorkExperienceSection from './WorkExperienceSection';
 export class PersonalSiteDashboard extends React.Component {
     
     render(){
-        const {details, education, work_items} = this.props
+        const {detail_items, education_items, work_items} = this.props
         return (
             <div> 
-                <AboutSection details={details} />
-                <EducationSection education={education} />
+                <AboutSection detail_items={detail_items} />
+                <EducationSection education_items={education_items} />
                 <WorkExperienceSection work_items={work_items} />
             </div>
         );

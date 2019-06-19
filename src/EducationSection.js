@@ -2,7 +2,7 @@ import React from "react";
 
 class EducationSection extends React.Component {
     render(){
-        const {education}=this.props
+        const {education_items}=this.props
         return (
         <div className="ui text container">
             <div className="ui segment">
@@ -11,7 +11,7 @@ class EducationSection extends React.Component {
                     <i class="large graduation cap icon"></i>
                     <b> EDUCATION </b> 
                 </p>
-                {education.map(
+                {education_items.map(
                     (item, i) => 
                     <div className="ui text segment">
                     <div className="ui two column stackable center aligned grid">

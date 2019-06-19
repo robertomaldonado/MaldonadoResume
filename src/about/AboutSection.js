@@ -3,15 +3,15 @@ import Detail from './Detail';
 
 class AboutSection extends React.Component {
     render(){
-        const {details}=this.props
+        const {detail_items}=this.props
         return (
             <Detail 
-                    key={details.id} 
-                    name={details.name}
-                    phone={details.phone}
-                    email = {details.email}
-                    github={details.github}
-                    linkedin={details.linkedin}
+                    key={detail_items.id} 
+                    name={detail_items.name}
+                    phone={detail_items.phone}
+                    email = {detail_items.email}
+                    github={detail_items.github}
+                    linkedin={detail_items.linkedin}
                 />
         );
     }
