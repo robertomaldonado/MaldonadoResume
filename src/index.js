@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
     let allData = {
         "basics": {
-          "name": "Rob Maldo",
+          "name": "Roberto Maldonado",
           "label": "Developer",
           "picture": "",
           "email": "rbt.maldonado[at]gmail.com",
@@ -67,30 +67,32 @@ import * as serviceWorker from './serviceWorker';
             "Awarded 'Volunteer of the Month'"
           ]
         }],
-        "education": [{
-          "institution": "Universidad San Francisco de Quito",
-          "area": "Computer Science",
-          "studyType": "Bachelor",
-          "startDate": "August 2010",
-          "endDate": "November 2015",
-          "gpa": "3.5",
-          "courses": [
-            "Basic SQL"
-          ]
-        },
+        "education": [
         {
           "institution": "Florida State University",
-          "area": "Computer Science",
-          "studyType": "Master's Degree",
+          "area": "Tallahassee, FL",
+          "studyType": "Master's in Computer Science",
           "startDate": "June 2017",
-          "endDate": "Expected December 2019",
+          "endDate": "December 2019",
           "gpa": "3.71",
           "courses": [
             "Networks",
             "Artificial Intelligence",
             "Mobile Computing"
             ]
-        }],
+        },
+        {
+          "institution": "Universidad San Francisco de Quito",
+          "area": "Quito, Ecuador",
+          "studyType": "B.Sc in Computer Science",
+          "startDate": "August 2010",
+          "endDate": "November 2015",
+          "gpa": "3.5",
+          "courses": [
+            ""
+          ]
+        },
+      ],
         "awards": [{
           "title": "Award",
           "date": "2014-11-01",
@@ -131,7 +133,11 @@ import * as serviceWorker from './serviceWorker';
       };
 
 ReactDOM.render(
-    <PersonalSiteDashboard  details={allData.basics} education={allData.education}/>, 
+    <PersonalSiteDashboard  
+      details={allData.basics} 
+      education={allData.education} 
+      work_items={allData.work}
+    />, 
     document.getElementById('root')
 );
 
