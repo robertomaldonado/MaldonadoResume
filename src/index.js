@@ -31,19 +31,21 @@ import * as serviceWorker from './serviceWorker';
             "url": "https://www.linkedin.com/in/roberto-maldonado-470009116/"
           }]
         },
-        "work": [{
-          "company": "Petroenergy - Pipeline Integrity",
-          "position": "Intern",
-          "location": "Quito, Ecuador",
-          "website": "https://petroenergy.com.ec",
-          "startDate": "June 2014",
-          "endDate": "August 2014",
-          "summary": "Description...",
-          "highlights": [
-            "Updated and modified the company's website as content needed to be changed, measured by a new functional and responsive website presentation using JavaScript, Css and Html.",
-          ]
-        },
-        {
+        "work": [
+          {
+            "company": "Florida State University - Department Of Computer Science",
+            "position": "IT network support and developer",
+            "location": "Tallahassee, FL",
+            "website": "https://www.fsu.edu",
+            "startDate": "Fall 2018",
+            "endDate": "June 2019",
+            "summary": "Description...",
+            "highlights": [
+              "Held weekly hours to provide support for 100+ new college students with homework/concept assistance Laboratory Assistant.",
+              "Held hours to keep the computer laboratory monitored.",
+            ]
+          },
+          {
             "company": "Petroenergy - Pipeline Integrity",
             "position": "IT network support and developer",
             "location": "Quito, Ecuador",
@@ -54,6 +56,18 @@ import * as serviceWorker from './serviceWorker';
             "highlights": [
               "Accomplished to implement specialized software components with VBA for Excel that automated processing and analysis for cathodic protection and oil pipeline inspection data, as measured by instantly performing tasks that used days of data handling, by programming routines into worksheets that merge different file formats and content from the data gathering equipment readings.",
               "Presented a prototype for a GIS application that displayed gathered values at specific locations for a particular user, as measured by a web application that displayed interactive pins over a layer of GoogleMaps, by building the application from scratch with AngularJS framework, and Firebase service.",
+            ]
+          },
+          {
+            "company": "Petroenergy - Pipeline Integrity",
+            "position": "Intern",
+            "location": "Quito, Ecuador",
+            "website": "https://petroenergy.com.ec",
+            "startDate": "June 2014",
+            "endDate": "August 2014",
+            "summary": "Description...",
+            "highlights": [
+              "Updated and modified the company's website as content needed to be changed, measured by a new functional and responsive website presentation using JavaScript, Css and Html.",
             ]
           }],
         "volunteer": [{
@@ -92,19 +106,35 @@ import * as serviceWorker from './serviceWorker';
             ""
           ]
         },
+        {
+          "institution": "Lindbergh High School",
+          "area": "Saint Louis, MO",
+          "studyType": "International Exchange Program",
+          "startDate": "August 2009",
+          "endDate": "May 2010",
+          "gpa": "NA",
+          "courses": [
+            ""
+          ]
+        },
       ],
-        "awards": [{
+        "certificates": [{
           "title": "Award",
           "date": "2014-11-01",
           "awarder": "Company",
           "summary": "There is no spoon."
         }],
         "publications": [{
-          "name": "Publication",
+          "name": "An Approach to Detect Text Authorship in the Spanish Language",
+          "location":"Larnaca, Cyprus",
           "publisher": "Company",
-          "releaseDate": "2014-10-01",
+          "releaseDate": "November 2016",
           "website": "http://publication.com",
-          "summary": "Description..."
+          "summary": "Description...",
+          "highlights": [
+            "Used C/C++ to build a program, that extracts a unique composition style signature from sample texts of an author and compares it with other author’s feature-set signature, obtaining a percentage of similarity.",
+            "Results were delivered by using bash scripting that pre-processes data and extracts statistics before plotting the information related to authors’ feature-set signatures with gnuplot.",
+          ]
         }],
         "skills": [{
           "name": "Web Development",
@@ -123,12 +153,11 @@ import * as serviceWorker from './serviceWorker';
           "name": "Wildlife",
           "keywords": [
             "Ferrets",
-            "Unicorns"
           ]
         }],
         "references": [{
-          "name": "Jane Doe",
-          "reference": "Reference..."
+          "name": "",
+          "reference": ""
         }]
       };
 
