@@ -19,9 +19,9 @@ class EducationSection extends React.Component {
                       <div className="column left aligned">
                             <b> {item.institution} </b> <br />
                             {item.studyType} <br />
-                            GPA: {item.gpa}/4.0
+                            {/* GPA: {item.gpa}/4.0 */}
                       </div>
-                      <div className="right aligned">
+                      <div className="column right aligned">
                         {item.area} | {item.startDate} - {item.endDate} 
                       </div>  
                       </div>

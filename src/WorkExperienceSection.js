@@ -13,15 +13,22 @@ class WorkExperienceSection extends React.Component {
                     { work_items.map(
                         (work_item, i) => 
                         <div className="ui text segment">
-                        <div className="ui two column stackable center aligned grid">
+                        <div className="ui two column stackable left aligned grid">
                           <div className="middle aligned row">
                           <div className="column left aligned">
                             <b>{work_item.company}</b> <br />
                             <b>{work_item.position}</b> <br />
-                          </div>
-                          <div className="right aligned">
+                          </div >
+                          <div className="column right aligned">
                             {work_item.location} | {work_item.startDate} - {work_item.endDate} 
                           </div>  
+                          <div className="">
+                          <ul>
+                              {work_item.highlights.map( (highlight, i) =>
+                              <li>{highlight}</li>
+                              )}
+                            </ul>
+                          </div>
                           </div>
                         </div>
                         </div>
