@@ -71,14 +71,25 @@ import * as serviceWorker from './serviceWorker';
             ]
           }],
         "volunteer": [{
-          "organization": "Organization",
-          "position": "Volunteer",
-          "website": "http://organization.com/",
-          "startDate": "2012-01-01",
-          "endDate": "2013-01-01",
+          "organization": "Fundación Cristo de Miravalle",
+          "position": "Literacy Teaching",
+          "website": "N/A",
+          "startDate": "2014",
+          "endDate": "May 2015",
           "summary": "...",
           "highlights": [
-            "Awarded 'Volunteer of the Month'"
+            "Create campaigns that encourage the middle school students to stay engaged with studies"
+          ]
+        },
+        {
+          "organization": "Future Business Leaders of America",
+          "position": "Community member",
+          "website": "N/A",
+          "startDate": "2009",
+          "endDate": "2009",
+          "summary": "...",
+          "highlights": [
+            "Provided assistance on fundraising events"
           ]
         }],
         "education": [
@@ -193,11 +204,12 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <PersonalSiteDashboard  
-      detail_items={allData.basics} 
-      education_items={allData.education} 
-      work_items={allData.work}
+      detail_items = {allData.basics} 
+      education_items = {allData.education} 
+      work_items = {allData.work}
       research = {allData.publications}
       certificates = {allData.certificates}
+      volunteer = {allData.volunteer}
     />, 
     document.getElementById('root')
 );
