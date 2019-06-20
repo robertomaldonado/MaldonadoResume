@@ -2,7 +2,8 @@ import React from 'react'
 
 class SkillsSection extends React.Component{
     render(){
-        return(
+        const {languages, skills} = this.props
+         return(
             <div className="ui text container" >
                 <div className="ui segment">
                     <p className="large text">

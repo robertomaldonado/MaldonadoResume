@@ -11,7 +11,7 @@ export class PersonalSiteDashboard extends React.Component {
     
     render(){
         const {detail_items, education_items, work_items, research, 
-            certificates, volunteer } = this.props
+            certificates, volunteer, languages, skills} = this.props
         return (
             <div> 
                 <AboutSection detail_items={detail_items} />
@@ -20,7 +20,10 @@ export class PersonalSiteDashboard extends React.Component {
                 <ResearchExpSection research={research} />
                 <VolunteerSection volunteering={volunteer} />
                 <CertSection certificates={certificates} />
-                <SkillsSection />
+                <SkillsSection 
+                    languages={languages}
+                    skills={skills}
+                />
             </div>
         );
     }

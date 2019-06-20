@@ -210,6 +210,8 @@ ReactDOM.render(
       research = {allData.publications}
       certificates = {allData.certificates}
       volunteer = {allData.volunteer}
+      languages = {allData.languages}
+      skills = {allData.skills}
     />, 
     document.getElementById('root')
 );
