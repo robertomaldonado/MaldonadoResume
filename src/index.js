@@ -73,6 +73,7 @@ import * as serviceWorker from './serviceWorker';
         "volunteer": [{
           "organization": "Fundación Cristo de Miravalle",
           "position": "Literacy Teaching",
+          "location":"Quito, EC",
           "website": "N/A",
           "startDate": "2014",
           "endDate": "May 2015",
@@ -84,6 +85,7 @@ import * as serviceWorker from './serviceWorker';
         {
           "organization": "Future Business Leaders of America",
           "position": "Community member",
+          "location":"St. Louis, MO",
           "website": "N/A",
           "startDate": "2009",
           "endDate": "2009",
@@ -178,12 +180,10 @@ import * as serviceWorker from './serviceWorker';
           ]
         }],
         "skills": [{
-          "name": "Web Development",
-          "level": "Master",
-          "keywords": [
-            "HTML",
-            "CSS",
-            "Javascript"
+          "name": "Computer Tools and Software",
+          "contents": [
+            "Code versioning (git)", 
+            "agile software development (SCRUM)",
           ]
         }],
         "languages": [{

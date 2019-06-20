@@ -9,8 +9,8 @@ const Detail = ({name,phone,email,location}) => {
             <div className="ui segment center aligned">
                 <h2> {name} </h2> 
                 <p className="large text">
-                <b>Phone: 
-                    </b> {phone} <br /> 
+                {/* <b>Phone: 
+                    </b> {phone} <br />  */}
                 <b>Email: 
                     </b> {email} <br />
                 <a target="blank" href="https://www.google.com/maps/d/viewer?msa=0&mid=1FH6ia4pV462HVCwHUJZT3cJyVfM&ll=30.39646700000002%2C-84.35447599999998&z=17" >

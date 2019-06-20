@@ -5,12 +5,13 @@ import WorkExperienceSection from './WorkExperienceSection';
 import ResearchExpSection from './ResearchExpSection';
 import CertSection from './CertSection';
 import VolunteerSection from './VolunteerSection';
+import SkillsSection from './SkillsSection';
 
 export class PersonalSiteDashboard extends React.Component {
     
     render(){
         const {detail_items, education_items, work_items, research, 
-            certificates, volunteer} = this.props
+            certificates, volunteer } = this.props
         return (
             <div> 
                 <AboutSection detail_items={detail_items} />
@@ -19,6 +20,7 @@ export class PersonalSiteDashboard extends React.Component {
                 <ResearchExpSection research={research} />
                 <VolunteerSection volunteering={volunteer} />
                 <CertSection certificates={certificates} />
+                <SkillsSection />
             </div>
         );
     }

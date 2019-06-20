@@ -7,31 +7,32 @@ class VolunteerSection extends React.Component{
             <div className="ui text container">
                 <div className="ui segment">
                     <p className="large text">
-                        <i className="large thumbs up outline icon"></i>
+                        <i className="large thumbs up icon"></i>
                         <b> VOLUNTEERING </b> 
                     </p>
-                    <div className="ui text segment">
+                    { volunteering.map(
+                        (volunt_item, i) => 
+                        <div className="ui text segment"  key={i}>
                         <div className="ui two column stackable left aligned grid">
                           <div className="middle aligned row">
-                          { volunteering.map(
-                          (volunteer_item, i) =>
-                              <div className="column left aligned" key={i}>
-                                <b>{volunteer_item.organization}</b> | {volunteer_item.position} ({volunteer_item.startDate})
-                                <ul>
-                                { volunteer_item.highlights.map(
-                                    (item, k) => 
-                                    <li key={k}>
-                                        {item}
-                                    </li>
-                                )
-                                }
-                                </ul>
-                              </div> 
-                             
-                          )}
+                          <div className="column left aligned">
+                            <b>{volunt_item.organization}</b> <br />
+                            {volunt_item.position}
+                          </div >
+                          <div className="column right aligned">
+                            {volunt_item.location} | {volunt_item.startDate}
+                          </div>  
+                          <div className="">
+                          <ul>
+                              {volunt_item.highlights.map( (highlight, k) =>
+                              <li key={k}>{highlight}</li>
+                              )}
+                            </ul>
+                          </div>
                           </div>
                         </div>
-                    </div>
+                        </div>
+                    )}
                     {/* <button
                     className="ui basic button icon">
                     <i className="plus icon" />
