@@ -1,5 +1,5 @@
-import React from "react";
-import '../App.css';
+import React from "react"
+import '../App.css'
 
 const Detail = ({name,phone,email,location}) => {
     return(
@@ -7,12 +7,8 @@ const Detail = ({name,phone,email,location}) => {
             <div className="ui text segment">
             <div className="ui two column stackable center aligned grid"></div>
             <div className="ui segment center aligned">
-            <p className="large text"> 
-                {/* <div className="ui center aligned icon header"> */}
-                    {/* <i class="huge address card outline icon"></i> */}
-                    <h2> {name} </h2> 
-                </p>
-                <p class="large text">
+                <h2> {name} </h2> 
+                <p className="large text">
                 <b>Phone: 
                     </b> {phone} <br /> 
                 <b>Email: 

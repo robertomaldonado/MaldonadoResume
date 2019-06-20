@@ -1,5 +1,5 @@
-import React from 'react';
-import Detail from './Detail';
+import React from 'react'
+import Detail from './Detail'
 
 class AboutSection extends React.Component {
     render(){
@@ -14,8 +14,8 @@ class AboutSection extends React.Component {
                     linkedin={detail_items.linkedin}
                     location={detail_items.location}
                 />
-        );
+        )
     }
 }
 
-export default AboutSection;
+export default AboutSection

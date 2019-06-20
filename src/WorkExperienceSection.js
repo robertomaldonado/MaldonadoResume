@@ -7,12 +7,12 @@ class WorkExperienceSection extends React.Component {
             <div className="ui text container">
                 <div className="ui segment">
                     <p className="large text">
-                        <i class="large user secret icon"></i>
+                        <i className="large user secret icon"></i>
                         <b> WORK EXPERIENCE </b> 
                     </p>
                     { work_items.map(
                         (work_item, i) => 
-                        <div className="ui text segment">
+                        <div className="ui text segment" key={i}>
                         <div className="ui two column stackable left aligned grid">
                           <div className="middle aligned row">
                           <div className="column left aligned">
@@ -24,8 +24,8 @@ class WorkExperienceSection extends React.Component {
                           </div>  
                           <div className="">
                           <ul>
-                              {work_item.highlights.map( (highlight, i) =>
-                              <li>{highlight}</li>
+                              {work_item.highlights.map( (highlight, k) =>
+                              <li key={k}>{highlight}</li>
                               )}
                             </ul>
                           </div>

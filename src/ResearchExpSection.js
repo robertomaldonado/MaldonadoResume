@@ -12,7 +12,7 @@ class ResearchExpSection extends React.Component {
                     </p>
                     { research.map(
                         (research_item, i) => 
-                        <div className="ui text segment">
+                        <div className="ui text segment"  key={i}>
                         <div className="ui two column stackable left aligned grid">
                           <div className="middle aligned row">
                           <div className="column left aligned">
@@ -23,8 +23,8 @@ class ResearchExpSection extends React.Component {
                           </div>  
                           <div className="">
                           <ul>
-                              {research_item.highlights.map( (highlight, i) =>
-                              <li>{highlight}</li>
+                              {research_item.highlights.map( (highlight, k) =>
+                              <li key={k}>{highlight}</li>
                               )}
                             </ul>
                           </div>

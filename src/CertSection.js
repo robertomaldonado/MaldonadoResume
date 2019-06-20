@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 
 class CertSection extends React.Component {
     render(){
         const {certificates}=this.props
         return (
-            <div className="ui text container">
+            <div className="ui text container" >
                 <div className="ui segment">
                     <p className="large text">
                         <i className="large file alternate icon"></i>
@@ -16,7 +16,8 @@ class CertSection extends React.Component {
                           <ul>
                           { certificates.map(
                           (cert, i) => 
-                            <li>
+                            // {key={i}}
+                            <li key={i} >
                               <div className="column left aligned">
                                 <b>{cert.title}</b>
                                 ({cert.date})
@@ -37,4 +38,4 @@ class CertSection extends React.Component {
     }
 }
 
-export default CertSection;
+export default CertSection
