@@ -180,10 +180,41 @@ import * as serviceWorker from './serviceWorker';
           ]
         }],
         "skills": [{
-          "name": "Computer Tools and Software",
+          "name": "Computer Tools and Software Engineering",
+          "contents": [
+            "OSX", 
+            "Windows Server 2012",
+            "Virtualization",
+            "(VMware) vSphere",
+            "(Oracle) VirtualBox", 
+            "TCP/IP",
+            "BGP", 
+            "Data Mining", 
+            "Networking"
+          ]
+        },
+        {
+          "name": "Software",
           "contents": [
             "Code versioning (git)", 
             "agile software development (SCRUM)",
+          ]
+        },
+        {
+          "name": "Programming",
+          "contents": [
+            "C/C++ (current)", 
+            "Python & R (Some course projects)",
+            "Java (on undergraduate degree)"
+          ]
+        },
+        {
+          "name": "Social",
+          "contents": [
+            "Leadership", 
+            "Team focused",
+            "Trustworthy",
+            "Really perseverant",
           ]
         }],
         "languages": [{

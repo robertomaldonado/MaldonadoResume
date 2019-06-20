@@ -13,20 +13,32 @@ class SkillsSection extends React.Component{
                     <div className="ui text segment">
                         <div className="ui two column stackable left aligned grid">
                           <div className="middle aligned row">
-                          <ul>
-                          {/* {certificates.map(
-                          (cert, i) => 
-                            // {key={i}}
-                            <li key={i} >
-                              <div className="column left aligned">
-                                <b>{cert.title}</b>
-                                ({cert.date})
-                              </div> 
-                            </li> 
-                          )} */}
+                            <ul>
+                                {skills.map( (skill, k) => 
+                                <li key={k}>
+                                  <b>{skill.name} </b> |
+                                  {/* <ul> */}
+                                      {skill.contents.map(
+                                          (skill,m) => 
+                                        <span key={m}>
+                                            { skill } |
+                                        </span>
+                                      )}
+                                  {/* </ul> */}
+                                </li>
+                                )}
+                                <li> <b>Languages</b> </li>
+                                {languages.map(
+                                  (lang, i) => 
+                                  <span key={i} className="column left aligned">
+                                    {lang.language}: {lang.fluency} <br/>
+                                  </span> 
+                                )}
+                              <ul>
+                            </ul>
                           </ul>
-                          </div>
                         </div>
+                      </div>
                     </div>
                     {/* <button
                     className="ui basic button icon">
