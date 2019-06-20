@@ -130,11 +130,30 @@ import * as serviceWorker from './serviceWorker';
         },
       ],
         "certificates": [{
-          "title": "Award",
-          "date": "2014-11-01",
+          "title": "Licensed Practitioner in Neuro-Linguistic Programming",
+          "date": "2016",
+          "awarder": "PNL Esfera",
+          "summary": "Focus on social behaviour and people management."
+        },
+        {
+          "title": "Scrum Master Accredited Certification",
+          "date": "2016",
+          "awarder": "Atheneos Lab",
+          "summary": "Course focused on the practices for Agile methodology in SCRUM."
+        },
+        {
+          "title": "MongoDB for Developers by MongoDB University",
+          "date": "2016",
+          "awarder": "MongoDB University",
+          "summary": "online course offered by MongoDB University."
+        },
+        {
+          "title": "Information and Communication Technology (ICT) Accessibility",
+          "date": "2015",
           "awarder": "Company",
-          "summary": "There is no spoon."
-        }],
+          "summary": "Online course offered by EDX independent education"
+        },
+      ],
         "publications": [{
           "name": "An Approach to Detect Text Authorship in the Spanish Language",
           "location":"Larnaca, Cyprus",
@@ -178,6 +197,7 @@ ReactDOM.render(
       education_items={allData.education} 
       work_items={allData.work}
       research = {allData.publications}
+      certificates = {allData.certificates}
     />, 
     document.getElementById('root')
 );
