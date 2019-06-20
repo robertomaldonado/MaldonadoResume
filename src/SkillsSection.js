@@ -17,14 +17,12 @@ class SkillsSection extends React.Component{
                                 {skills.map( (skill, k) => 
                                 <li key={k}>
                                   <b>{skill.name} </b> |
-                                  {/* <ul> */}
                                       {skill.contents.map(
                                           (skill,m) => 
                                         <span key={m}>
                                             { skill } |
                                         </span>
                                       )}
-                                  {/* </ul> */}
                                 </li>
                                 )}
                                 <li> <b>Languages</b> </li>
