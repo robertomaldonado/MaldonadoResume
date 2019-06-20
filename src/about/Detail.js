@@ -9,23 +9,29 @@ const Detail = ({name,phone,email,location}) => {
             <div className="ui segment center aligned">
             <p className="large text"> 
                 {/* <div className="ui center aligned icon header"> */}
-                    <i class="large address card outline icon"></i>
-                    <b> {name} </b> 
+                    {/* <i class="huge address card outline icon"></i> */}
+                    <h2> {name} </h2> 
                 </p>
                 <p class="large text">
                 <b>Phone: 
                     </b> {phone} <br /> 
                 <b>Email: 
                     </b> {email} <br />
-                <i className="location arrow icon"></i>
+                <a target="blank" href="https://www.google.com/maps/d/viewer?msa=0&mid=1FH6ia4pV462HVCwHUJZT3cJyVfM&ll=30.39646700000002%2C-84.35447599999998&z=17" >
+                  <i className="location arrow icon"></i>
+                </a>
                     {location.city},{location.region} <br />
                 <b>LinkedIn: </b>  
-                    <i className="linkedin icon"></i> | 
+                    <a target="blank" href="https://www.linkedin.com/in/roberto-maldonado-470009116/" >
+                        <i className="linkedin icon"></i>
+                    </a>
                 <b> Github: </b> 
-                    <i className="github icon"></i> <br />
+                    <a target="blank" href="https://github.com/robertomaldonado/" >
+                        <i className="github icon"></i> <br />
+                    </a>
                 </p>
                 This site was built with React JS components and a customized version of JSON Resume Schema. 
-                Source code can be found in my <a href="./" > github </a>.
+                Source code can be found in <a target="blank" href="https://github.com/robertomaldonado/MaldonadoResume/" > my github repository</a>.
             </div>
         </div>
         </div>

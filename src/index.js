@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
           "label": "Developer",
           "picture": "",
           "email": "rbt.maldonado[at]gmail.com",
-          "phone": "(123)123-1234",
+          "phone": "(xxx)xxx-xxxx",
           "website": "http://tobedisplayed.com",
           "summary": "This is a summary ",
           "location": {
