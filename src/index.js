@@ -39,7 +39,7 @@ import * as serviceWorker from './serviceWorker';
             "website": "https://www.fsu.edu",
             "startDate": "Fall 2018",
             "endDate": "June 2019",
-            "summary": "Description...",
+            "summary": "...",
             "highlights": [
               "Held weekly hours to provide support for 100+ new college students with homework/concept assistance Laboratory Assistant.",
               "Held hours to keep the computer laboratory monitored.",
@@ -48,11 +48,11 @@ import * as serviceWorker from './serviceWorker';
           {
             "company": "Petroenergy - Pipeline Integrity",
             "position": "IT network support and developer",
-            "location": "Quito, Ecuador",
+            "location": "Quito, EC",
             "website": "https://petroenergy.com.ec",
             "startDate": "December 2015",
             "endDate": "June 2017",
-            "summary": "Description...",
+            "summary": "...",
             "highlights": [
               "Accomplished to implement specialized software components with VBA for Excel that automated processing and analysis for cathodic protection and oil pipeline inspection data, as measured by instantly performing tasks that used days of data handling, by programming routines into worksheets that merge different file formats and content from the data gathering equipment readings.",
               "Presented a prototype for a GIS application that displayed gathered values at specific locations for a particular user, as measured by a web application that displayed interactive pins over a layer of GoogleMaps, by building the application from scratch with AngularJS framework, and Firebase service.",
@@ -61,11 +61,11 @@ import * as serviceWorker from './serviceWorker';
           {
             "company": "Petroenergy - Pipeline Integrity",
             "position": "Intern",
-            "location": "Quito, Ecuador",
+            "location": "Quito, EC",
             "website": "https://petroenergy.com.ec",
             "startDate": "June 2014",
             "endDate": "August 2014",
-            "summary": "Description...",
+            "summary": "...",
             "highlights": [
               "Updated and modified the company's website as content needed to be changed, measured by a new functional and responsive website presentation using JavaScript, Css and Html.",
             ]
@@ -76,7 +76,7 @@ import * as serviceWorker from './serviceWorker';
           "website": "http://organization.com/",
           "startDate": "2012-01-01",
           "endDate": "2013-01-01",
-          "summary": "Description...",
+          "summary": "...",
           "highlights": [
             "Awarded 'Volunteer of the Month'"
           ]
@@ -88,7 +88,7 @@ import * as serviceWorker from './serviceWorker';
           "studyType": "Master's in Computer Science",
           "startDate": "June 2017",
           "endDate": "December 2019",
-          "gpa": "3.71",
+          "gpa": "3.77",
           "courses": [
             "Networks",
             "Artificial Intelligence",
@@ -97,11 +97,11 @@ import * as serviceWorker from './serviceWorker';
         },
         {
           "institution": "Universidad San Francisco de Quito",
-          "area": "Quito, Ecuador",
+          "area": "Quito, EC",
           "studyType": "B.Sc in Computer Science",
           "startDate": "August 2010",
           "endDate": "November 2015",
-          "gpa": "3.5",
+          "gpa": "3.49",
           "courses": [
             ""
           ]
@@ -112,7 +112,18 @@ import * as serviceWorker from './serviceWorker';
           "studyType": "International Exchange Program",
           "startDate": "August 2009",
           "endDate": "May 2010",
-          "gpa": "NA",
+          "gpa": "--",
+          "courses": [
+            ""
+          ]
+        },
+        {
+          "institution": "William Shakespeare School",
+          "area": "Quito, EC",
+          "studyType": "Bachellor in Science",
+          "startDate": "May 2005",
+          "endDate": "May 2009",
+          "gpa": "--",
           "courses": [
             ""
           ]
@@ -130,7 +141,7 @@ import * as serviceWorker from './serviceWorker';
           "publisher": "Company",
           "releaseDate": "November 2016",
           "website": "http://publication.com",
-          "summary": "Description...",
+          "summary": "...",
           "highlights": [
             "Used C/C++ to build a program, that extracts a unique composition style signature from sample texts of an author and compares it with other author’s feature-set signature, obtaining a percentage of similarity.",
             "Results were delivered by using bash scripting that pre-processes data and extracts statistics before plotting the information related to authors’ feature-set signatures with gnuplot.",
@@ -146,8 +157,12 @@ import * as serviceWorker from './serviceWorker';
           ]
         }],
         "languages": [{
-          "language": "English",
+          "language": "Spanish",
           "fluency": "Native speaker"
+        },
+        {
+          "language": "English",
+          "fluency": "Fluent"
         }],
         "interests": [{
           "name": "Wildlife",
@@ -155,10 +170,6 @@ import * as serviceWorker from './serviceWorker';
             "Ferrets",
           ]
         }],
-        "references": [{
-          "name": "",
-          "reference": ""
-        }]
       };
 
 ReactDOM.render(
@@ -166,6 +177,7 @@ ReactDOM.render(
       detail_items={allData.basics} 
       education_items={allData.education} 
       work_items={allData.work}
+      research = {allData.publications}
     />, 
     document.getElementById('root')
 );
