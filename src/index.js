@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
     let allData = {
         "basics": {
-          "name": "Roberto Maldonado",
+          "name": "Roberto Maldonado Galiano",
           "label": "Developer",
           "picture": "",
           "email": "rbt.maldonado[at]gmail.com",
@@ -33,16 +33,38 @@ import * as serviceWorker from './serviceWorker';
         },
         "work": [
           {
-            "company": "Florida State University - Department Of Computer Science",
-            "position": "IT network support and developer",
+            "company": "Covalent",
+            "position": "AR Developer Intern",
             "location": "Tallahassee, FL",
-            "website": "https://www.fsu.edu",
-            "startDate": "Fall 2018",
-            "endDate": "June 2019",
+            "website": "https://...",
+            "startDate": "June 2019",
+            "endDate": "August 2019",
             "summary": "...",
             "highlights": [
-              "Held weekly hours to provide support for 100+ new college students with homework/concept assistance Laboratory Assistant.",
-              "Held hours to keep the computer laboratory monitored.",
+            ]
+          },
+          {
+            "company": "Florida State University - Department Of Computer Science",
+            "position": "Computer Fluency Teaching Assistant",
+            "location": "Tallahassee, FL",
+            "website": "https://www.fsu.edu",
+            "startDate": "August 2018",
+            "endDate": "May 2019",
+            "summary": "...",
+            "highlights": [
+              "Held weekly hours to provide support for 100+ new college students with homework/concept assistance."
+            ]
+          },
+          {
+            "company": "Florida State University - Department Of Computer Science",
+            "position": "Laboratory Monitor",
+            "location": "Tallahassee, FL",
+            "website": "https://www.fsu.edu",
+            "startDate": "May 2018",
+            "endDate": "August 2018",
+            "summary": "...",
+            "highlights": [
+              "Held hours to keep the computer laboratory monitored."
             ]
           },
           {
