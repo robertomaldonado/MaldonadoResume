@@ -38,7 +38,7 @@ import * as serviceWorker from './serviceWorker';
             "location": "Tallahassee, FL",
             "website": "https://...",
             "startDate": "June 2019",
-            "endDate": "August 2019",
+            "endDate": "Present",
             "summary": "...",
             "highlights": [
             ]
