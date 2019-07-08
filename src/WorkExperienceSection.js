@@ -7,7 +7,7 @@ class WorkExperienceSection extends React.Component {
             <div className="ui text container">
                 <div className="ui segment">
                     <p className="large text">
-                        <i className="large user secret icon"></i>
+                        <i className="large briefcase icon"></i>
                         <b> WORK EXPERIENCE </b> 
                     </p>
                     { work_items.map(
