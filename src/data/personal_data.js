@@ -1,7 +1,7 @@
 const resumeData = {
   "basics": {
     "name": "Roberto Maldonado",
-    "label": "Developer",
+    "label": "AR Developer",
     "picture": "",
     "email": "rbt.maldonado[at]gmail.com",
     "phone": "(xxx)xxx-xxxx",
@@ -27,53 +27,88 @@ const resumeData = {
   },
   "work": [
     {
+      "company": "Covalent - Reality",
+      "position": "Developer Intern",
+      "location": "Tallahassee, FL",
+      "website": "https://www.gocovalent.com",
+      "startDate": "May 2018",
+      "endDate": "Present",
+      "summary": "AR/VR Developer",
+      "highlights": [
+      ]
+    },
+    {
       "company": "Florida State University - Department Of Computer Science",
-      "position": "IT network support and developer",
+      "position": "Teaching Assistant",
       "location": "Tallahassee, FL",
       "website": "https://www.fsu.edu",
-      "startDate": "Fall 2018",
-      "endDate": "June 2019",
+      "startDate": "Jun 2018",
+      "endDate": "Aug 2018",
       "summary": "...",
       "highlights": [
-        "Held weekly hours to provide support for 100+ new college students with homework/concept assistance Laboratory Assistant.",
-        "Held hours to keep the computer laboratory monitored.",
+        "Assisted the main professor by providing support for 100+ new college students with homework/concept assistance in Computer Fluency.",
+      ]
+    },
+    {
+      "company": "Florida State University - Department Of Computer Science",
+      "position": "Laboratory Assistant",
+      "location": "Tallahassee, FL",
+      "website": "https://www.fsu.edu",
+      "startDate": "Jun 2018",
+      "endDate": "Aug 2018",
+      "summary": "...",
+      "highlights": [
+        "Maintained order and security of the computer laboratory.",
       ]
     },
     {
       "company": "Petroenergy - Pipeline Integrity",
       "position": "IT network support and developer",
-      "location": "Quito, EC",
+      "location": "Quito, Ecuador",
       "website": "https://petroenergy.com.ec",
-      "startDate": "December 2015",
-      "endDate": "June 2017",
+      "startDate": "Dec 2015",
+      "endDate": "Jun 2017",
       "summary": "...",
       "highlights": [
-        "Accomplished to implement specialized software components with VBA for Excel that automated processing and analysis for cathodic protection and oil pipeline inspection data, as measured by instantly performing tasks that used days of data handling, by programming routines into worksheets that merge different file formats and content from the data gathering equipment readings.",
+        "Implemented a specialized software components with VBA for Excel that automated processing and analysis for cathodic protection and oil pipeline inspection data, as measured by instantly performing tasks that used 5+ days of data handling, by programming routines into worksheets that merge different file formats and content from the data gathering equipment readings.",
         "Presented a prototype for a GIS application that displayed gathered values at specific locations for a particular user, as measured by a web application that displayed interactive pins over a layer of GoogleMaps, by building the application from scratch with AngularJS framework, and Firebase service.",
       ]
     },
     {
       "company": "Petroenergy - Pipeline Integrity",
       "position": "Intern",
-      "location": "Quito, EC",
+      "location": "Quito, Ecuador",
       "website": "https://petroenergy.com.ec",
-      "startDate": "June 2014",
-      "endDate": "August 2014",
+      "startDate": "Jun 2014",
+      "endDate": "Aug 2014",
       "summary": "...",
       "highlights": [
-        "Updated and modified the company's website as content needed to be changed, measured by a new functional and responsive website presentation using JavaScript, Css and Html.",
+        "Updated and improved the company's website, as seen by a new responsive website presentation using some frameworks for Js, Css, Html and Google Maps API.",
       ]
     }],
   "volunteer": [{
+    "organization": "Cinehassee Ibero-American Film Festival",
+    "position": "Organization Member",
+    "location":"Tallahassee, FL",
+    "website": "N/A",
+    "startDate": "May 2014",
+    "endDate": " Present ",
+    "summary": "Event designed by HiGSA - Hispanic Graduate Student Organization at FSU",
+    "highlights": [
+      "Assisted HiGSA board to select movies that had social impact.",
+      "Cooperated to find sponsorship from other recognized organizations at FSU.",
+    ]
+  },{
     "organization": "Fundación Cristo de Miravalle",
     "position": "Literacy Teaching",
-    "location":"Quito, EC",
+    "location":"Quito, Ecuador",
     "website": "N/A",
     "startDate": "2014",
     "endDate": "May 2015",
-    "summary": "...",
+    "summary": "Provided assistance in an elementary school",
     "highlights": [
-      "Create campaigns that encourage the middle school students to stay engaged with studies"
+      "Served snacks, prepared  by the elementary school, to the students.",
+      "Designed and created a campaign that encouraged elementary school students to stay engaged with their studies."
     ]
   },
   {
@@ -83,9 +118,9 @@ const resumeData = {
     "website": "N/A",
     "startDate": "2009",
     "endDate": "2009",
-    "summary": "...",
+    "summary": "Provided assistance with club events.",
     "highlights": [
-      "Provided assistance on fundraising events"
+      "Provided assistance on fundraising events."
     ]
   }],
   "education": [
@@ -93,8 +128,8 @@ const resumeData = {
     "institution": "Florida State University",
     "area": "Tallahassee, FL",
     "studyType": "Master's in Computer Science",
-    "startDate": "June 2017",
-    "endDate": "December 2019",
+    "startDate": "Jun 2017",
+    "endDate": "Dec 2019",
     "gpa": "3.77",
     "courses": [
       "Networks",
@@ -104,10 +139,10 @@ const resumeData = {
   },
   {
     "institution": "Universidad San Francisco de Quito",
-    "area": "Quito, EC",
+    "area": "Quito, Ecuador",
     "studyType": "B.Sc in Computer Science",
-    "startDate": "August 2010",
-    "endDate": "November 2015",
+    "startDate": "Aug 2010",
+    "endDate": "Nov 2015",
     "gpa": "3.49",
     "courses": [
       ""
@@ -117,7 +152,7 @@ const resumeData = {
     "institution": "Lindbergh High School",
     "area": "Saint Louis, MO",
     "studyType": "International Exchange Program",
-    "startDate": "August 2009",
+    "startDate": "Aug 2009",
     "endDate": "May 2010",
     "gpa": "--",
     "courses": [
@@ -126,7 +161,7 @@ const resumeData = {
   },
   {
     "institution": "William Shakespeare School",
-    "area": "Quito, EC",
+    "area": "Quito, Ecuador",
     "studyType": "Bachellor in Science",
     "startDate": "May 2005",
     "endDate": "May 2009",
@@ -165,12 +200,12 @@ const resumeData = {
     "name": "An Approach to Detect Text Authorship in the Spanish Language",
     "location":"Larnaca, Cyprus",
     "publisher": "Company",
-    "releaseDate": "November 2016",
+    "releaseDate": "Nov 2016",
     "website": "http://publication.com",
     "summary": "...",
     "highlights": [
-      "Used C/C++ to build a program, that extracts a unique composition style signature from sample texts of an author and compares it with other author’s feature-set signature, obtaining a percentage of similarity.",
-      "Results were delivered by using bash scripting that pre-processes data and extracts statistics before plotting the information related to authors’ feature-set signatures with gnuplot.",
+      "Designed and implemented a C/C++ program, that extracts a unique composition style from sample texts and compares it with other author's style, estimating a percentage of similarity.",
+      "Results were plotted with bash scripting (pre-processing data and preparing statistics) alongside gnuPlot (a portable command-line graphing utility).",
     ]
   }],
   "skills": [{
@@ -198,7 +233,7 @@ const resumeData = {
     "name": "Programming",
     "contents": [
       "C/C++ (current)", 
-      "Python & R (Some course projects)",
+      "Python & R (course projects)",
       "Java (on undergraduate degree)"
     ]
   },
