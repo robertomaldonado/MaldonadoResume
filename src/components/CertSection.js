@@ -19,7 +19,7 @@ class CertSection extends React.Component {
                             // {key={i}}
                             <li key={i} >
                               <div className="column left aligned">
-                                <b>{cert.title}</b>
+                                <b>{cert.title} </b>
                                 ({cert.date})
                               </div> 
                             </li> 
