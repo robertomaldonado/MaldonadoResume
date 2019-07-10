@@ -1,11 +1,11 @@
 import React from 'react';
-import EducationSection from './EducationSection';
-import AboutSection from './about/AboutSection';
-import WorkExperienceSection from './WorkExperienceSection';
-import ResearchExpSection from './ResearchExpSection';
-import CertSection from './CertSection';
-import VolunteerSection from './VolunteerSection';
-import SkillsSection from './SkillsSection';
+import EducationSection from './components/EducationSection';
+import AboutSection from './components/about/AboutSection';
+import WorkExperienceSection from './components/WorkExperienceSection';
+import ResearchExpSection from './components/ResearchExpSection';
+import CertSection from './components/CertSection';
+import VolunteerSection from './components/VolunteerSection';
+import SkillsSection from './components/SkillsSection';
 
 export class PersonalSiteDashboard extends React.Component {
     

@@ -1,5 +1,5 @@
 import React from "react"
-import '../App.css'
+import '../../App.css'
 
 const Detail = ({name,phone,email,location}) => {
     return(

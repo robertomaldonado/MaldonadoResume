@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import resumeData from './data/personal_data.js';
     
 ReactDOM.render(
-    <PersonalSiteDashboard  
+    <PersonalSiteDashboard 
       detail_items = {resumeData.basics} 
       education_items = {resumeData.education} 
       work_items = {resumeData.work}
